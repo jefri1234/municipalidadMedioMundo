@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+#header-principal{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.235),rgba(0, 0, 0, 0.324)) , url('muni.jpg');
+    width: 100%;
+    height: 80vh;
+    background-position: top ;
+    background-size: contain ;
+    background-repeat: no-repeat;  
+}
+
+.introduccion{
+    margin:2em;
+    
+}
+.introduccion  h2{
+    font-size: 2.8em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.trabajo-laboral {
+    width: 50%;
+    height: auto;
+    padding: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.trabajo-laboral img{
+    width: 100%;
+    border-radius: 15px;
+}
+.trabajo-independientes{
+padding: 2em;
+width: 50%;
+position: relative;
+top: -2em;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.trabajo-independientes h2{
+    font-size: 3em;   
+}
+.consultas{
+display: flex;
+}
+.reclamos{
+    display: flex;
+}
+.contacto{
+    display: flex;
+}
+.consultas img{
+    width: 150px;
+    }
+.reclamos img{
+        width: 150px;
+    }
+.contacto img{
+        width: 150px;
+    }
+
+
+.generalizacion-empresa{
+    margin: 0vh 50px;
+    text-align:unset;
+    font-size: 1.5em;
+    
+}
+
+.mapa{
+    padding: 5em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer ul li a  {
+    
+    color: white;
+}
+.footer{
+    background-color: rgb(20, 20, 74);
+}
+.footer h5{
+    color: white;
+}
+.footer ul{
+    color: white;
+}
+
+.imagen-bicentenario{
+    width: 500px;
+}
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5em 9em;
+    font-size:1.1em;
+    flex-wrap: wrap;
+}
+  @media screen and (max-width: 1700px) {
+    #header-principal {
+      width: 100%;
+      height: 40vh; 
+      background-size: cover;
+      background-position: left;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .seccion-1 {
+      flex-direction: column;
+      padding: 2em 0em;
+    }
+    .flex-item{
+        padding: 0em 8em;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .contenedor2 {
+      
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .consultas{
+        display: block;
+        text-align: center;
+        padding: 0em 8em;
+    }
+    .reclamos{
+        display: block;
+        text-align: center;
+        padding: 0em 8em;
+    }
+    .contacto{
+        display: block;
+        text-align: center;
+        padding: 0em 8em;
+    }
+    .trabajo-laboral{
+        text-align: center;
+
+    }
+  }
+
+
+
+
+
